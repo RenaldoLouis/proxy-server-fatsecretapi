@@ -17,7 +17,6 @@ export default async (req, res) => {
             // Add any other required parameters here
         });
 
-        // Return the data from the FatSecret API
         res.status(200).json(data);
     } catch (error) {
         console.error('Error in API route:', error);
