@@ -1,8 +1,11 @@
 {
-    "routes": {
-      "/api/*": {
-        "methods": ["GET", "POST", "PUT", "DELETE"],
-        "timeout": 30
+    "routes": [
+      {
+          "/api/*": 
+          {
+          "methods": ["GET", "POST", "PUT", "DELETE"],
+          "timeout": 30
+          }
       }
-    }
+    ]
   }
